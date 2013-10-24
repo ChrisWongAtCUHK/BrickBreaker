@@ -16,7 +16,6 @@
 		
 	<!-- compile -->
 	<target name="compile">
-		<mkdir dir="prepare" />
 		<javac sourcepath="" srcdir="src"
          destdir="${base-dir}" classpath="${jfxrt.jar}" includeantruntime="false" >
 			<include name="**/*.java"/>
